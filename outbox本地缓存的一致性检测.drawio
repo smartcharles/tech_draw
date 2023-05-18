@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T09:09:30.069Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="dWMFmgvOUFdaDzHHGTE4" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-18T15:42:37.605Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="yJldzxLvrkQdrsVzQTYz" version="21.3.2" type="github">
   <diagram name="第 1 页" id="WdboCnZ2d4t4Ayvz6EiU">
     <mxGraphModel dx="2261" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="ZECSGGWycOFUHyePITKy-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="ZECSGGWycOFUHyePITKy-1" vertex="1">
           <mxGeometry width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ZECSGGWycOFUHyePITKy-3" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;大粉up缓存&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="ZECSGGWycOFUHyePITKy-1" vertex="1">
+        <mxCell id="ZECSGGWycOFUHyePITKy-3" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;热点up缓存&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="ZECSGGWycOFUHyePITKy-1" vertex="1">
           <mxGeometry x="7.5" y="50" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZECSGGWycOFUHyePITKy-4" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 15px;&quot;&gt;outbox-1&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ZECSGGWycOFUHyePITKy-1" vertex="1">
@@ -22,19 +22,19 @@
         <mxCell id="ZECSGGWycOFUHyePITKy-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="ZECSGGWycOFUHyePITKy-5" vertex="1">
           <mxGeometry width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ZECSGGWycOFUHyePITKy-7" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;大粉up缓存&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="ZECSGGWycOFUHyePITKy-5" vertex="1">
+        <mxCell id="ZECSGGWycOFUHyePITKy-7" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;热点up缓存&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="ZECSGGWycOFUHyePITKy-5" vertex="1">
           <mxGeometry x="7.5" y="50" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZECSGGWycOFUHyePITKy-8" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 15px;&quot;&gt;outbox-2&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ZECSGGWycOFUHyePITKy-5" vertex="1">
           <mxGeometry x="25" y="10" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZECSGGWycOFUHyePITKy-9" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="570" y="410" width="120" height="120" as="geometry" />
+          <mxGeometry x="570" y="400" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ZECSGGWycOFUHyePITKy-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="ZECSGGWycOFUHyePITKy-9" vertex="1">
           <mxGeometry width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ZECSGGWycOFUHyePITKy-11" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;大粉up缓存&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="ZECSGGWycOFUHyePITKy-9" vertex="1">
+        <mxCell id="ZECSGGWycOFUHyePITKy-11" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;热点up缓存&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="ZECSGGWycOFUHyePITKy-9" vertex="1">
           <mxGeometry x="7.5" y="50" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZECSGGWycOFUHyePITKy-12" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 15px;&quot;&gt;outbox-n&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ZECSGGWycOFUHyePITKy-9" vertex="1">
@@ -64,7 +64,7 @@
         <mxCell id="ZECSGGWycOFUHyePITKy-20" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;outbox存储&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ZECSGGWycOFUHyePITKy-13" vertex="1">
           <mxGeometry x="105" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZECSGGWycOFUHyePITKy-25" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;拉取up-a的最新200条动态重构本地缓存&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ZECSGGWycOFUHyePITKy-25" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;拉取up-a的最新动态列表重构本地缓存&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="340" y="575" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZECSGGWycOFUHyePITKy-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="ZECSGGWycOFUHyePITKy-26" target="ZECSGGWycOFUHyePITKy-14" edge="1">
@@ -105,7 +105,7 @@
         <mxCell id="ZECSGGWycOFUHyePITKy-34" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;checksum:&amp;lt;up-a&amp;gt;&lt;br&gt;1 ck1&lt;br&gt;2 ck2&lt;br&gt;n ckn&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="-20" y="210" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ZECSGGWycOFUHyePITKy-35" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 15px;&quot;&gt;大粉up redis集群&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ZECSGGWycOFUHyePITKy-35" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 15px;&quot;&gt;热点up redis集群&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-150" y="227.5" width="150" height="35" as="geometry" />
         </mxCell>
         <mxCell id="ZECSGGWycOFUHyePITKy-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" parent="1" source="ZECSGGWycOFUHyePITKy-2" target="ZECSGGWycOFUHyePITKy-34" edge="1">
@@ -114,19 +114,19 @@
         <mxCell id="ZECSGGWycOFUHyePITKy-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="ZECSGGWycOFUHyePITKy-26" target="ZECSGGWycOFUHyePITKy-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZECSGGWycOFUHyePITKy-44" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;拉取up-a的最新200条动态计算checksum&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ZECSGGWycOFUHyePITKy-44" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;拉取up-a的最新动态列表计算checksum&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="472.5" y="70" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZECSGGWycOFUHyePITKy-45" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;拉取所有outbox实例上报的up-a的checksum&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="49" y="70" width="264.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZECSGGWycOFUHyePITKy-53" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;拉取全量大粉up名单&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="ZECSGGWycOFUHyePITKy-53" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;拉取全量热点up名单&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="110" y="262.5" width="264.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZECSGGWycOFUHyePITKy-58" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;获取大粉up在本地缓存200条动态&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="ZECSGGWycOFUHyePITKy-58" value="获取&lt;span style=&quot;font-size: 13px;&quot;&gt;热点&lt;/span&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;up在本地缓存的最新动态列表&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="374.5" y="350" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZECSGGWycOFUHyePITKy-59" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;获取大粉up在redis中的200条动态&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="ZECSGGWycOFUHyePITKy-59" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;获取热点up在redis中的最新动态列表&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="450" y="262.5" width="264.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZECSGGWycOFUHyePITKy-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="ZECSGGWycOFUHyePITKy-2" target="ZECSGGWycOFUHyePITKy-14" edge="1">
