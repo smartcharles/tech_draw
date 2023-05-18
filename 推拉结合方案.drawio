@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T12:43:54.886Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="tLeqC29_iDdQzn_qHSnR" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-18T15:54:09.462Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="i1Wz51lW6ywubwrfmNlv" version="21.3.2" type="github">
   <diagram name="第 1 页" id="T4l5YdtfBi07WJmN0s0r">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="iXR9tIZSC_QS2gOpMHgQ-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;strokeColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="iXR9tIZSC_QS2gOpMHgQ-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;strokeColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="470" y="290" width="250" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="iXR9tIZSC_QS2gOpMHgQ-1" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;dashed=1;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="iXR9tIZSC_QS2gOpMHgQ-1" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;dashed=1;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="470" y="5" width="250" height="275" as="geometry" />
         </mxCell>
         <mxCell id="dN75JIiPyu12IOEwJFPf-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;outbox&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
@@ -107,10 +107,10 @@
         <mxCell id="dN75JIiPyu12IOEwJFPf-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;inbox&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="570" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dN75JIiPyu12IOEwJFPf-16" value="我关注的所有大粉up" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="dN75JIiPyu12IOEwJFPf-16" value="获取我关注的所有UP" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="340" width="120" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="dN75JIiPyu12IOEwJFPf-19" value="我的所有粉丝" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="dN75JIiPyu12IOEwJFPf-19" value="获取我的所有粉丝" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="130" y="185" width="120" height="15" as="geometry" />
         </mxCell>
         <mxCell id="dN75JIiPyu12IOEwJFPf-23" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;...&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -128,8 +128,8 @@
         <mxCell id="dN75JIiPyu12IOEwJFPf-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dN75JIiPyu12IOEwJFPf-11" target="dN75JIiPyu12IOEwJFPf-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dN75JIiPyu12IOEwJFPf-37" value="分别拉我关注的所有大粉outbox" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="290" y="410" width="196" height="15" as="geometry" />
+        <mxCell id="dN75JIiPyu12IOEwJFPf-37" value="分别拉我关注的大粉UP outbox" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="280" y="425" width="196" height="15" as="geometry" />
         </mxCell>
         <mxCell id="dN75JIiPyu12IOEwJFPf-46" value="只拉我自己的inbox" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="310" width="196" height="15" as="geometry" />
@@ -143,10 +143,10 @@
         <mxCell id="dN75JIiPyu12IOEwJFPf-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dN75JIiPyu12IOEwJFPf-47" target="dN75JIiPyu12IOEwJFPf-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iXR9tIZSC_QS2gOpMHgQ-5" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;写扩散&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="iXR9tIZSC_QS2gOpMHgQ-5" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;写扩散&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="680" y="145" width="140" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="iXR9tIZSC_QS2gOpMHgQ-6" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;读扩散&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="iXR9tIZSC_QS2gOpMHgQ-6" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;读扩散&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="680" y="395" width="140" height="15" as="geometry" />
         </mxCell>
       </root>
