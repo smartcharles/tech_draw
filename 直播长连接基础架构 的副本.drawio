@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T16:23:15.175Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="J5wKYA421H-SeVlcVamn" version="21.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-19T17:33:11.518Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="M5pd_VVegrQW9AFCHRmI" version="21.3.3" type="github">
   <diagram name="第 1 页" id="XHsyQk1Ajmoq5cy0WuqM">
     <mxGraphModel dx="2212" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -157,17 +157,17 @@
         <mxCell id="JanNo0E4OkqzpQ1DrJZF-67" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;直播长连接组件&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="250" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JanNo0E4OkqzpQ1DrJZF-69" value="业务方" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="JanNo0E4OkqzpQ1DrJZF-69" value="客户端" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1030" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JanNo0E4OkqzpQ1DrJZF-70" value="挂件更新(全局/多房间维度)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-560" y="90" width="170" height="30" as="geometry" />
+          <mxGeometry x="-570" y="90" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JanNo0E4OkqzpQ1DrJZF-71" value="用户进房(全局/多房间维度)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-560" y="240" width="170" height="30" as="geometry" />
+          <mxGeometry x="-570" y="240" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JanNo0E4OkqzpQ1DrJZF-72" value="直播弹幕(单房间维度)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-560" y="460" width="170" height="30" as="geometry" />
+          <mxGeometry x="-570" y="460" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JanNo0E4OkqzpQ1DrJZF-73" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;语聊房/PK(用户维度 高优消息)&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="-560" y="640" width="170" height="30" as="geometry" />
@@ -175,7 +175,7 @@
         <mxCell id="JanNo0E4OkqzpQ1DrJZF-74" value="grpc广播至所有comet" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="350" y="250" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JanNo0E4OkqzpQ1DrJZF-79" value="广播消息至所有房间内的客户端" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="JanNo0E4OkqzpQ1DrJZF-79" value="广播消息至客户端" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="900" y="130" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1XgvR0CaCUdwYxR7jsRi-1" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -399,7 +399,7 @@
         <mxCell id="1XgvR0CaCUdwYxR7jsRi-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="1XgvR0CaCUdwYxR7jsRi-92" target="JanNo0E4OkqzpQ1DrJZF-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1XgvR0CaCUdwYxR7jsRi-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1XgvR0CaCUdwYxR7jsRi-99" target="JanNo0E4OkqzpQ1DrJZF-46" edge="1">
+        <mxCell id="1XgvR0CaCUdwYxR7jsRi-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9-qk_nFq1uo1dB4Ztf-2-5" target="JanNo0E4OkqzpQ1DrJZF-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1XgvR0CaCUdwYxR7jsRi-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="1XgvR0CaCUdwYxR7jsRi-99" target="JanNo0E4OkqzpQ1DrJZF-48" edge="1">
@@ -412,13 +412,13 @@
         <mxCell id="1XgvR0CaCUdwYxR7jsRi-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1XgvR0CaCUdwYxR7jsRi-99" target="JanNo0E4OkqzpQ1DrJZF-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1XgvR0CaCUdwYxR7jsRi-123" value="广播消息至所有房间内的客户端" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="1XgvR0CaCUdwYxR7jsRi-123" value="广播消息至客户端" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="900" y="210" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1XgvR0CaCUdwYxR7jsRi-124" value="广播消息至所有房间内的客户端" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="1XgvR0CaCUdwYxR7jsRi-124" value="广播消息至客户端" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="900" y="340" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1XgvR0CaCUdwYxR7jsRi-125" value="广播消息至所有房间内的客户端" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="1XgvR0CaCUdwYxR7jsRi-125" value="广播消息至客户端" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="900" y="460" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1XgvR0CaCUdwYxR7jsRi-126" value="grpc广播至所有comet" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
@@ -429,6 +429,18 @@
         </mxCell>
         <mxCell id="9-qk_nFq1uo1dB4Ztf-2-4" value="comet内部低优待发送消息通道" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="705" y="670" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9-qk_nFq1uo1dB4Ztf-2-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1XgvR0CaCUdwYxR7jsRi-99" target="9-qk_nFq1uo1dB4Ztf-2-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="705" as="sourcePoint" />
+            <mxPoint x="982" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9-qk_nFq1uo1dB4Ztf-2-5" value="广播消息至客户端" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="900" y="580" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9-qk_nFq1uo1dB4Ztf-2-7" value="广播消息至客户端" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="900" y="700" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
