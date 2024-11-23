@@ -4,6 +4,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-37" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="150" y="430" width="560" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-35" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="60" y="260" width="560" height="140" as="geometry" />
+        </mxCell>
         <mxCell id="I8UzzJbSWn9JydqBjw_e-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I8UzzJbSWn9JydqBjw_e-1" target="I8UzzJbSWn9JydqBjw_e-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -82,6 +88,12 @@
         </mxCell>
         <mxCell id="I8UzzJbSWn9JydqBjw_e-34" value="OldOnetierPlayUrl" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="345" y="460" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-36" value="弱依赖链路" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="228" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-38" value="强依赖链路" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="580" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
