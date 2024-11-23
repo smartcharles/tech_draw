@@ -1,9 +1,88 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.7.16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.9">
   <diagram name="第 1 页" id="4FKuQPBJwbvwg94SxuQ4">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I8UzzJbSWn9JydqBjw_e-1" target="I8UzzJbSWn9JydqBjw_e-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I8UzzJbSWn9JydqBjw_e-1" target="I8UzzJbSWn9JydqBjw_e-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-1" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="290" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I8UzzJbSWn9JydqBjw_e-2" target="I8UzzJbSWn9JydqBjw_e-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-2" value="天马、直播首页&lt;br&gt;动态、搜索、tab页网关" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="225" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I8UzzJbSWn9JydqBjw_e-3" target="I8UzzJbSWn9JydqBjw_e-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="I8UzzJbSWn9JydqBjw_e-3" target="I8UzzJbSWn9JydqBjw_e-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-3" value="xroom" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="460" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="I8UzzJbSWn9JydqBjw_e-5" target="I8UzzJbSWn9JydqBjw_e-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="I8UzzJbSWn9JydqBjw_e-5" target="I8UzzJbSWn9JydqBjw_e-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-5" value="playurl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="460" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-8" value="getMultiple" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-9" value="BatchPlayUrl" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="400" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.975;entryY=0.688;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I8UzzJbSWn9JydqBjw_e-2" target="I8UzzJbSWn9JydqBjw_e-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-17" value="秒开流播放地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I8UzzJbSWn9JydqBjw_e-18" target="I8UzzJbSWn9JydqBjw_e-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-18" value="app-room" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="225" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-21" value="获取feed流直播卡秒开信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="300" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-22" value="秒开流播放地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="350" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-23" value="秒开流播放地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="400" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-27" value="&lt;b&gt;点击进房 getRoomPlayInfo(P0)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="460" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.125;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I8UzzJbSWn9JydqBjw_e-18" target="I8UzzJbSWn9JydqBjw_e-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-31" value="房间基本详情&lt;div&gt;流地址信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="503" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-33" value="流地址信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="508" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UzzJbSWn9JydqBjw_e-34" value="OldOnetierPlayUrl" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="460" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
