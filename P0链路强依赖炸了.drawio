@@ -1,9 +1,36 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.9">
   <diagram name="第 1 页" id="pb5nritU8oiXOXXH2cKc">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="43tC2trQ6nSrpMeiC2Xk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="43tC2trQ6nSrpMeiC2Xk-1" target="43tC2trQ6nSrpMeiC2Xk-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="43tC2trQ6nSrpMeiC2Xk-1" value="app-room" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="290" y="180" width="290" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="43tC2trQ6nSrpMeiC2Xk-2" value="热门直播间本地缓存" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="350" y="180" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="43tC2trQ6nSrpMeiC2Xk-3" value="playurl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="375" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="43tC2trQ6nSrpMeiC2Xk-5" value="OldOnetierPlayUrl" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="410" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="43tC2trQ6nSrpMeiC2Xk-6" value="流地址信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="334" y="430" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="43tC2trQ6nSrpMeiC2Xk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.4;entryY=1.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="43tC2trQ6nSrpMeiC2Xk-3" target="43tC2trQ6nSrpMeiC2Xk-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="43tC2trQ6nSrpMeiC2Xk-9" value="" style="shape=cross;whiteSpace=wrap;html=1;rotation=42;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="43tC2trQ6nSrpMeiC2Xk-13" value="强依赖炸了" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="475" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
