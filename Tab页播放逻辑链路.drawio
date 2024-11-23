@@ -4,6 +4,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WlN4n_p8q7aZqstCNr1V-49" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="30" y="180" width="560" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="WlN4n_p8q7aZqstCNr1V-48" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="390" width="570" height="290" as="geometry" />
+        </mxCell>
         <mxCell id="WlN4n_p8q7aZqstCNr1V-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WlN4n_p8q7aZqstCNr1V-11" target="WlN4n_p8q7aZqstCNr1V-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -97,6 +103,12 @@
         </mxCell>
         <mxCell id="WlN4n_p8q7aZqstCNr1V-45" value="未获得秒开地址请求P0兜底" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-140" y="570" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WlN4n_p8q7aZqstCNr1V-50" value="弱依赖链路" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="310" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WlN4n_p8q7aZqstCNr1V-51" value="强依赖链路" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="690" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
