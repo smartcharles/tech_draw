@@ -1,9 +1,297 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="第 1 页" id="4KdP5ctYv50nH8HlW69x">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--2" target="sVUlzI-JTvnf4CIOHbn--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--2" value="getInfoByRoom实时请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="120" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--3" target="sVUlzI-JTvnf4CIOHbn--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--3" value="从本地缓存中拿短号对应的长号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1685" y="240" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1545" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--4" target="sVUlzI-JTvnf4CIOHbn--65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--4" value="从本地缓存中拿房间基本详情" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="510" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--5" target="sVUlzI-JTvnf4CIOHbn--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--5" target="sVUlzI-JTvnf4CIOHbn--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--5" value="是否热门房间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="370" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--6" target="sVUlzI-JTvnf4CIOHbn--9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2100" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--6" value="调用xroom获取房间基本详情" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="510" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--8" target="sVUlzI-JTvnf4CIOHbn--10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1725" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--8" target="sVUlzI-JTvnf4CIOHbn--9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1370" y="680" />
+              <mxPoint x="1370" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--8" value="是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1455" y="640" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1725" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--9" value="将房间基本详情填充于GetInfoByRoomRsp回包中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1577.5" y="1180" width="295" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1725" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--10" value="调用xroom获取房间基本详情(singleflight)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="750" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--14" target="sVUlzI-JTvnf4CIOHbn--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--14" target="sVUlzI-JTvnf4CIOHbn--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--14" value="是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1671.25" y="870" width="107.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--15" target="sVUlzI-JTvnf4CIOHbn--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--15" target="sVUlzI-JTvnf4CIOHbn--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--15" value="将最新值写入本地缓存并续期" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="1010" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--16" target="sVUlzI-JTvnf4CIOHbn--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--16" target="sVUlzI-JTvnf4CIOHbn--65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--16" value="将上一次的旧值写入本地缓存并续期" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="1010" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1725" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--26" value="过滤出该房间需要执行的模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1577.5" y="1320" width="295" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1725" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--28" value="并发遍历这些模块并对每个模块如下处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1577.5" y="1460" width="295" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--30" target="sVUlzI-JTvnf4CIOHbn--31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--30" target="sVUlzI-JTvnf4CIOHbn--35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--30" value="是否热门房间且可缓存模块" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1625" y="1580" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--31" target="sVUlzI-JTvnf4CIOHbn--32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--31" value="从本地缓存拿该模块的值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="1710" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--32" target="sVUlzI-JTvnf4CIOHbn--34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1260" y="1870" />
+              <mxPoint x="1260" y="2290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--32" target="sVUlzI-JTvnf4CIOHbn--36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--32" value="是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1407.5" y="1830" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--34" target="sVUlzI-JTvnf4CIOHbn--40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--34" value="将该模块的值填充到GetInfoByRoomRsp中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560.25" y="2260" width="295" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--35" target="sVUlzI-JTvnf4CIOHbn--34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2080" y="2290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--35" value="调用该模块下游获取值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="1710" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--36" target="sVUlzI-JTvnf4CIOHbn--37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--36" value="调用该模块下游获取值(singlefilght)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1612.5" y="1940" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--37" target="sVUlzI-JTvnf4CIOHbn--38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--37" target="sVUlzI-JTvnf4CIOHbn--39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--37" value="是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1663.75" y="2050" width="107.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--38" target="sVUlzI-JTvnf4CIOHbn--34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1530" y="2230" />
+              <mxPoint x="1708" y="2230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--38" target="sVUlzI-JTvnf4CIOHbn--69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="2180" />
+              <mxPoint x="1200" y="1618" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--38" target="sVUlzI-JTvnf4CIOHbn--70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="2180" />
+              <mxPoint x="1200" y="1723" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--38" target="sVUlzI-JTvnf4CIOHbn--75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="2180" />
+              <mxPoint x="1200" y="1823" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--38" value="将上一次的旧值写入本地缓存并续期" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1407.5" y="2150" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--39" target="sVUlzI-JTvnf4CIOHbn--34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1915" y="2230" />
+              <mxPoint x="1708" y="2230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVUlzI-JTvnf4CIOHbn--39" target="sVUlzI-JTvnf4CIOHbn--38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--39" value="将最新值写入本地缓存并续期" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="2155" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--40" value="处理回包非rpc填充逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1542.75" y="2400" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--56" value="是" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--57" value="否" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--58" value="是" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--59" value="否" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--60" value="否" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1575" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--61" value="是" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--77" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="680" y="1490" width="381" height="367.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sVUlzI-JTvnf4CIOHbn--77" source="sVUlzI-JTvnf4CIOHbn--62" target="sVUlzI-JTvnf4CIOHbn--65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--62" value="7734200:__p1_room" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sVUlzI-JTvnf4CIOHbn--77">
+          <mxGeometry x="70" y="12.5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--65" value="房间基本详情" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="sVUlzI-JTvnf4CIOHbn--77">
+          <mxGeometry x="260" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sVUlzI-JTvnf4CIOHbn--77" source="sVUlzI-JTvnf4CIOHbn--67" target="sVUlzI-JTvnf4CIOHbn--69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--67" value="7734200:getAccountCardInfo" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sVUlzI-JTvnf4CIOHbn--77">
+          <mxGeometry x="20" y="112.5" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--69" value="账号模块详情" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="sVUlzI-JTvnf4CIOHbn--77">
+          <mxGeometry x="261" y="92.5" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--70" value="看过模块详情" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="sVUlzI-JTvnf4CIOHbn--77">
+          <mxGeometry x="260" y="197.5" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sVUlzI-JTvnf4CIOHbn--77" source="sVUlzI-JTvnf4CIOHbn--71" target="sVUlzI-JTvnf4CIOHbn--70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--71" value="7734200:getWatchedShow" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sVUlzI-JTvnf4CIOHbn--77">
+          <mxGeometry y="217.5" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sVUlzI-JTvnf4CIOHbn--77" source="sVUlzI-JTvnf4CIOHbn--74" target="sVUlzI-JTvnf4CIOHbn--75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--74" value="7734200:。。。" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sVUlzI-JTvnf4CIOHbn--77">
+          <mxGeometry y="317.5" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--75" value="。。。" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="sVUlzI-JTvnf4CIOHbn--77">
+          <mxGeometry x="261" y="297.5" width="120" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
