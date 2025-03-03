@@ -227,7 +227,7 @@
             <mxPoint x="-50" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CG3sEC5kOzj6vTKyxuMJ-80" value="过滤某房间无需执行的模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CG3sEC5kOzj6vTKyxuMJ-80" value="过滤该热门房间需要执行的模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-140" y="710" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CG3sEC5kOzj6vTKyxuMJ-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CG3sEC5kOzj6vTKyxuMJ-81">
@@ -235,7 +235,7 @@
             <mxPoint x="-57.5" y="980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CG3sEC5kOzj6vTKyxuMJ-81" value="并发调用各缓存module下游填充GetInfoByRoomRsp回包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CG3sEC5kOzj6vTKyxuMJ-81" value="并发调用各缓存模块下游填充GetInfoByRoomRsp回包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-225" y="830" width="335" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CG3sEC5kOzj6vTKyxuMJ-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CG3sEC5kOzj6vTKyxuMJ-84" target="CG3sEC5kOzj6vTKyxuMJ-85">
@@ -364,17 +364,32 @@
         <mxCell id="CG3sEC5kOzj6vTKyxuMJ-123" value="判断是否为热门房间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="895" y="930" width="190" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="CG3sEC5kOzj6vTKyxuMJ-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CG3sEC5kOzj6vTKyxuMJ-124" target="CG3sEC5kOzj6vTKyxuMJ-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CG3sEC5kOzj6vTKyxuMJ-124" value="从本地缓存拿到回包(已经包含缓存模块的内容)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="1120" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CG3sEC5kOzj6vTKyxuMJ-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CG3sEC5kOzj6vTKyxuMJ-125" target="CG3sEC5kOzj6vTKyxuMJ-127">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CG3sEC5kOzj6vTKyxuMJ-125" value="过滤该房间需要调用的模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="1260" width="330" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="CG3sEC5kOzj6vTKyxuMJ-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CG3sEC5kOzj6vTKyxuMJ-126" target="CG3sEC5kOzj6vTKyxuMJ-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CG3sEC5kOzj6vTKyxuMJ-126" value="过滤该房间需要调用的模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="1260" width="330" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="CG3sEC5kOzj6vTKyxuMJ-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CG3sEC5kOzj6vTKyxuMJ-127" target="CG3sEC5kOzj6vTKyxuMJ-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CG3sEC5kOzj6vTKyxuMJ-127" value="并发调用各非缓存模块下游填充来自本地缓存回包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="1410" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CG3sEC5kOzj6vTKyxuMJ-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CG3sEC5kOzj6vTKyxuMJ-128" target="CG3sEC5kOzj6vTKyxuMJ-130">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CG3sEC5kOzj6vTKyxuMJ-128" value="并发调用所有所需模块的下游填充回包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="1410" width="330" height="60" as="geometry" />
