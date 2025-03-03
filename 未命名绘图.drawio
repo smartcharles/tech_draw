@@ -219,7 +219,7 @@
         <mxCell id="CG3sEC5kOzj6vTKyxuMJ-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CG3sEC5kOzj6vTKyxuMJ-79" target="CG3sEC5kOzj6vTKyxuMJ-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CG3sEC5kOzj6vTKyxuMJ-79" value="调用xroom获取房间基本详情(包括短号)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CG3sEC5kOzj6vTKyxuMJ-79" value="调用xroom获取房间基本详情(包括短号)，失败则用上一次的值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-170" y="570" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CG3sEC5kOzj6vTKyxuMJ-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CG3sEC5kOzj6vTKyxuMJ-80">
@@ -235,7 +235,7 @@
             <mxPoint x="-57.5" y="980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CG3sEC5kOzj6vTKyxuMJ-81" value="并发调用各缓存模块下游填充GetInfoByRoomRsp回包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CG3sEC5kOzj6vTKyxuMJ-81" value="并发调用各缓存模块下游填充GetInfoByRoomRsp回包(失败用上一次的值)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-225" y="830" width="335" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CG3sEC5kOzj6vTKyxuMJ-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CG3sEC5kOzj6vTKyxuMJ-84" target="CG3sEC5kOzj6vTKyxuMJ-85">
