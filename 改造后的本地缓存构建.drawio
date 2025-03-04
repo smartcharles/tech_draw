@@ -345,7 +345,7 @@
         <mxCell id="sVUlzI-JTvnf4CIOHbn--112" value="将超过5分钟未被续期缓存清理掉" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="1390" width="330" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sVUlzI-JTvnf4CIOHbn--122" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;由bigcache本地缓存组件自动提供的定时任务&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sVUlzI-JTvnf4CIOHbn--122" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;由Ritretto本地缓存组件自动提供的定时任务&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="1150" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sVUlzI-JTvnf4CIOHbn--123" value="&lt;h2&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;防止不再是热门房间的各模块仍然一直处于内存中导致内存过大&lt;/font&gt;&lt;/h2&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
