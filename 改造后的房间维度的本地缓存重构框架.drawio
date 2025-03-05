@@ -95,6 +95,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="of5xqRFu-SOXzQBDKbFj-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="of5xqRFu-SOXzQBDKbFj-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="25" y="92.22222222222217" as="targetPoint" />
+            <mxPoint x="25" y="92.22222222222217" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="of5xqRFu-SOXzQBDKbFj-17" value="5440" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="of5xqRFu-SOXzQBDKbFj-12">
           <mxGeometry y="79.85185185185186" width="50" height="36.2962962962963" as="geometry" />
         </mxCell>
@@ -321,16 +327,41 @@
         <mxCell id="of5xqRFu-SOXzQBDKbFj-75" value="跳过什么也不做" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-120" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="of5xqRFu-SOXzQBDKbFj-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="of5xqRFu-SOXzQBDKbFj-78" target="of5xqRFu-SOXzQBDKbFj-69">
+        <mxCell id="of5xqRFu-SOXzQBDKbFj-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="of5xqRFu-SOXzQBDKbFj-78" target="of5xqRFu-SOXzQBDKbFj-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="of5xqRFu-SOXzQBDKbFj-78" value="并调用下游获取可缓存模块内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="1320" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="of5xqRFu-SOXzQBDKbFj-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="of5xqRFu-SOXzQBDKbFj-93" target="of5xqRFu-SOXzQBDKbFj-69">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-300" y="1350" />
+              <mxPoint x="-300" y="1480" />
               <mxPoint x="-300" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="of5xqRFu-SOXzQBDKbFj-78" value="并调用下游获取可缓存模块内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="1320" width="200" height="60" as="geometry" />
+        <mxCell id="of5xqRFu-SOXzQBDKbFj-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="of5xqRFu-SOXzQBDKbFj-93" target="of5xqRFu-SOXzQBDKbFj-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="1480" />
+              <mxPoint x="130" y="406" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="of5xqRFu-SOXzQBDKbFj-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="of5xqRFu-SOXzQBDKbFj-93" target="of5xqRFu-SOXzQBDKbFj-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="1480" />
+              <mxPoint x="130" y="636" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="of5xqRFu-SOXzQBDKbFj-93" value="填充getInfoByRoomRsp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="1450" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="of5xqRFu-SOXzQBDKbFj-104" value="写入本地缓存并续期6s" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1485" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
