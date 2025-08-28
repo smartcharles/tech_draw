@@ -1,9 +1,582 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram name="第 1 页" id="ixftsjdXIt1r-_rAxV3U">
-    <mxGraphModel>
+    <mxGraphModel dx="2253" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sj38n6fJh2CBArFXl05y-107" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-130" y="1620" width="2030" height="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-60" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="1310" y="705" width="690" height="605" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-61" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="240" y="720" width="820" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-62" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="590" y="270" width="1090" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-107" source="sj38n6fJh2CBArFXl05y-66" target="sj38n6fJh2CBArFXl05y-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="330" />
+              <mxPoint x="500" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-107" source="sj38n6fJh2CBArFXl05y-66" target="sj38n6fJh2CBArFXl05y-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="330" />
+              <mxPoint x="500" y="190" />
+              <mxPoint x="1000" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-107" source="sj38n6fJh2CBArFXl05y-66" target="sj38n6fJh2CBArFXl05y-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="330" />
+              <mxPoint x="500" y="670" />
+              <mxPoint x="800" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-66" value="live.live.xroom" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="310" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-67" value="live.live.dao-anchor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-107" source="sj38n6fJh2CBArFXl05y-71" target="sj38n6fJh2CBArFXl05y-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="360" />
+              <mxPoint x="1020" y="420" />
+              <mxPoint x="815" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sj38n6fJh2CBArFXl05y-107" source="sj38n6fJh2CBArFXl05y-71" target="sj38n6fJh2CBArFXl05y-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="420" />
+              <mxPoint x="1250" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sj38n6fJh2CBArFXl05y-107" source="sj38n6fJh2CBArFXl05y-71" target="sj38n6fJh2CBArFXl05y-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-71" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;live.live-infra.playurl-strategy&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="900" y="300" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-72" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;datacenter&lt;span&gt;.&lt;/span&gt;titan&lt;span&gt;.&lt;/span&gt;titan&lt;span&gt;-&lt;/span&gt;user&lt;span&gt;-&lt;/span&gt;service&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="630" y="480" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-73" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;video&lt;span&gt;.&lt;/span&gt;live&lt;span&gt;-&lt;/span&gt;edge&lt;span&gt;-&lt;/span&gt;computing&lt;span&gt;.&lt;/span&gt;stream&lt;span&gt;-&lt;/span&gt;media&lt;span&gt;-&lt;/span&gt;fetch&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="1080" y="480" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-74" value="&lt;span&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 0px 5px; padding: 0px; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot; data-v-6d79ae31=&quot;&quot;&gt;/datacenter.service.titan.v1.TitanUserServer/CheckTagBatch&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; border: 1px solid rgb(225, 243, 216); margin: 0px 0px 0px 20px; padding: 0px 9px; align-items: center; border-radius: 4px; display: inline-flex; height: 24px; justify-content: center; vertical-align: middle; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; --el-tag-font-size: 12px; --el-tag-border-radius: 4px; --el-tag-border-radius-rounded: 9999px; line-height: 1; --el-icon-size: 14px; --el-tag-bg-color: rgb(239.8,248.9,235.3); --el-tag-border-color: rgb(224.6,242.8,215.6); --el-tag-hover-color: #67c23a; --el-tag-text-color: #67c23a;&quot; class=&quot;el-tag el-tag--success el-tag--light&quot; data-v-6d79ae31=&quot;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="590" y="380" width="450" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-75" value="&lt;span&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 0px 5px; padding: 0px; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot; data-v-6d79ae31=&quot;&quot;&gt;/video.edge_computing.stream_media_fetch.v1.StreamMediaFetch/QueryRoomMediaCommonInfo&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; border: 1px solid rgb(225, 243, 216); margin: 0px 0px 0px 20px; padding: 0px 9px; align-items: center; border-radius: 4px; display: inline-flex; height: 24px; justify-content: center; vertical-align: middle; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; --el-tag-font-size: 12px; --el-tag-border-radius: 4px; --el-tag-border-radius-rounded: 9999px; line-height: 1; --el-icon-size: 14px; --el-tag-bg-color: rgb(239.8,248.9,235.3); --el-tag-border-color: rgb(224.6,242.8,215.6); --el-tag-hover-color: #67c23a; --el-tag-text-color: #67c23a;&quot; class=&quot;el-tag el-tag--success el-tag--light&quot; data-v-6d79ae31=&quot;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="990" y="380" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-76" value="策略" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="1145" y="240" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-77" value="paladin&lt;br&gt;策略规则(热更新)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="670" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-107" source="sj38n6fJh2CBArFXl05y-79" target="sj38n6fJh2CBArFXl05y-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-79" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;video.pung.playurl&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="740" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-107" source="sj38n6fJh2CBArFXl05y-81" target="sj38n6fJh2CBArFXl05y-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-81" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;video&lt;span&gt;.&lt;/span&gt;live&lt;span&gt;.&lt;/span&gt;schedule&lt;span&gt;-&lt;/span&gt;stream&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="660" y="910" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-107" source="sj38n6fJh2CBArFXl05y-83" target="sj38n6fJh2CBArFXl05y-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-83" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;video&lt;span&gt;.&lt;/span&gt;live&lt;span&gt;-&lt;/span&gt;core&lt;span&gt;.&lt;/span&gt;stream&lt;span&gt;-&lt;/span&gt;room&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="695" y="1040" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-84" value="热门房间本地缓存" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="305" y="270" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-85" value="热门房间本地缓存" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="610" y="765" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-86" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/video.live.streamng.v2.Stream/GetMultiStreamInfo&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="790" y="848" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-87" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/video.live_core.stream_room.v1.StreamRoomServer/BatchGetStreamDataByRoomIdMultiSource&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="800" y="990" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-88" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;video&lt;span&gt;.&lt;/span&gt;live&lt;span&gt;-&lt;/span&gt;core&lt;span&gt;.&lt;/span&gt;stream&lt;span&gt;-&lt;/span&gt;core&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="665" y="1200" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-89" value="&lt;span&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 0px 5px; padding: 0px; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot; data-v-6d79ae31=&quot;&quot;&gt;/video.live_core.stream_core.v1.streamCoreServer/GetStreamAvCoversMutilSource&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; border: 1px solid rgb(225, 243, 216); margin: 0px 0px 0px 20px; padding: 0px 9px; align-items: center; border-radius: 4px; display: inline-flex; height: 24px; justify-content: center; vertical-align: middle; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; --el-tag-font-size: 12px; --el-tag-border-radius: 4px; --el-tag-border-radius-rounded: 9999px; line-height: 1; --el-icon-size: 14px; --el-tag-bg-color: rgb(239.8,248.9,235.3); --el-tag-border-color: rgb(224.6,242.8,215.6); --el-tag-hover-color: #67c23a; --el-tag-text-color: #67c23a;&quot; class=&quot;el-tag el-tag--success el-tag--light&quot; data-v-6d79ae31=&quot;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="220" y="1140" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-90" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span&gt;&lt;span&gt;&lt;span style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 0px 5px; padding: 0px; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot; data-v-6d79ae31=&quot;&quot;&gt;/video.live_core.stream_core.v1.streamCoreServer/StreamBatchGetMutilSource&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; border: 1px solid rgb(225, 243, 216); margin: 0px 0px 0px 20px; padding: 0px 9px; --el-tag-font-size: 12px; --el-tag-border-radius: 4px; --el-tag-border-radius-rounded: 9999px; align-items: center; border-radius: 4px; display: inline-flex; height: 24px; justify-content: center; line-height: 1; vertical-align: middle; --el-icon-size: 14px; --el-tag-bg-color: rgb(239.8,248.9,235.3); --el-tag-border-color: rgb(224.6,242.8,215.6); --el-tag-hover-color: #67c23a; --el-tag-text-color: #67c23a; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; border-image: initial; --el-tag-font-size: 12px; --el-tag-border-radius: 4px; --el-tag-border-radius-rounded: 9999px; line-height: 1; --el-icon-size: 14px; --el-tag-bg-color: rgb(239.8,248.9,235.3); --el-tag-border-color: rgb(224.6,242.8,215.6); --el-tag-hover-color: #67c23a; --el-tag-text-color: #67c23a;&quot; class=&quot;el-tag el-tag--success el-tag--light&quot; data-v-6d79ae31=&quot;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="770" y="1140" width="580" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-107" source="sj38n6fJh2CBArFXl05y-93" target="sj38n6fJh2CBArFXl05y-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sj38n6fJh2CBArFXl05y-107" source="sj38n6fJh2CBArFXl05y-93" target="sj38n6fJh2CBArFXl05y-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-93" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;infra&lt;span&gt;.&lt;/span&gt;mg&lt;span&gt;.&lt;/span&gt;playurl&lt;span&gt;-&lt;/span&gt;v3&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="1550" y="740" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-94" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;multimedia&lt;span&gt;.&lt;/span&gt;lv&lt;span&gt;.&lt;/span&gt;lawrencium&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="1350" y="900" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-95" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; white-space-collapse: collapse;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;video.live-cdn.bvccdn-ban-streamcenter&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="1690" y="900" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.02;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-107" source="sj38n6fJh2CBArFXl05y-79" target="sj38n6fJh2CBArFXl05y-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/multimedia.lv.lawrencium.v1.LawrenciumService/GetIdcIdsByMultiSidInfo&lt;/font&gt;&lt;/span&gt;" link="&lt;span style=&quot;color: rgb(96, 98, 102); font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(240, 246, 253); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;/multimedia.lv.lawrencium.v1.LawrenciumService/GetIdcIdsByMultiSidInfo&lt;/span&gt;" id="sj38n6fJh2CBArFXl05y-97">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+            <mxGeometry x="1160" y="810" width="500" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="sj38n6fJh2CBArFXl05y-98" value="&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 0px 5px; padding: 0px; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot; data-v-6d79ae31=&quot;&quot;&gt;/streamCenter.service.v1.StreamCenter/GetStreams&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; border: 1px solid rgb(225, 243, 216); margin: 0px 0px 0px 20px; padding: 0px 9px; align-items: center; border-radius: 4px; display: inline-flex; height: 24px; justify-content: center; vertical-align: middle; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; --el-tag-font-size: 12px; --el-tag-border-radius: 4px; --el-tag-border-radius-rounded: 9999px; line-height: 1; --el-icon-size: 14px; --el-tag-bg-color: rgb(239.8,248.9,235.3); --el-tag-border-color: rgb(224.6,242.8,215.6); --el-tag-hover-color: #67c23a; --el-tag-text-color: #67c23a;&quot; class=&quot;el-tag el-tag--success el-tag--light&quot; data-v-6d79ae31=&quot;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="1630" y="820" width="400" height="50" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/infra.mg.playurl_v3.v1.LiveResSched/GetBatchPlayurl&lt;/font&gt;&lt;/span&gt;" link="&lt;span style=&quot;color: rgb(96, 98, 102); font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(245, 247, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;/infra.mg.playurl_v3.v1.LiveResSched/GetBatchPlayurl&lt;/span&gt;" id="sj38n6fJh2CBArFXl05y-99">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+            <mxGeometry x="1000" y="755" width="380" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="sj38n6fJh2CBArFXl05y-100" value="pu" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="640" y="698" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-101" value="CDN调度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="1650" y="668" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-102" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/live.daoanchor.v1.DaoAnchor/FetchRoomByIDs&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="580" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-103" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/live.playurl.strategy.v1.PlayUrlStrategy/BatchPlayUrlStrategy&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="575" y="160" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-104" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/video.pung.playurl.v1.Playurl/BatchPlayurl&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="790" y="675" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-105" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-107" target="sj38n6fJh2CBArFXl05y-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="330" as="sourcePoint" />
+            <mxPoint x="130" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/live.xroom.v1.Room/GetMultipleByUids&lt;/font&gt;&lt;/span&gt;" link="&lt;span style=&quot;color: rgb(96, 98, 102); font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 245, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;/live.xroom.v1.Room/GetMultiple&lt;/span&gt;" id="sj38n6fJh2CBArFXl05y-106">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+            <mxGeometry x="30" y="300" width="230" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="sj38n6fJh2CBArFXl05y-163" value="全量在播房间缓存" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-107">
+          <mxGeometry x="305" y="360" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-2" value="live.live.dao-anchor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-53" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/live.daoanchor.v1.DaoAnchor/FetchRoomByIDs&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="60" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-165" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-110" y="3230" width="2490" height="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-109" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1770" y="825" width="690" height="605" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-110" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="700" y="840" width="820" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-111" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1050" y="390" width="1090" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-165" source="sj38n6fJh2CBArFXl05y-115" target="sj38n6fJh2CBArFXl05y-116">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="450" />
+              <mxPoint x="960" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-165" source="sj38n6fJh2CBArFXl05y-115" target="sj38n6fJh2CBArFXl05y-120">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="450" />
+              <mxPoint x="960" y="310" />
+              <mxPoint x="1460" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-165" source="sj38n6fJh2CBArFXl05y-115" target="sj38n6fJh2CBArFXl05y-128">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="450" />
+              <mxPoint x="960" y="790" />
+              <mxPoint x="1260" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-115" value="live.live.xroom" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="770" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-116" value="live.live.dao-anchor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1410" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-165" source="sj38n6fJh2CBArFXl05y-120" target="sj38n6fJh2CBArFXl05y-121">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1480" y="480" />
+              <mxPoint x="1480" y="540" />
+              <mxPoint x="1275" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sj38n6fJh2CBArFXl05y-165" source="sj38n6fJh2CBArFXl05y-120" target="sj38n6fJh2CBArFXl05y-122">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1480" y="540" />
+              <mxPoint x="1710" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sj38n6fJh2CBArFXl05y-165" source="sj38n6fJh2CBArFXl05y-120" target="sj38n6fJh2CBArFXl05y-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-120" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;live.live-infra.playurl-strategy&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1360" y="420" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-121" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;datacenter&lt;span&gt;.&lt;/span&gt;titan&lt;span&gt;.&lt;/span&gt;titan&lt;span&gt;-&lt;/span&gt;user&lt;span&gt;-&lt;/span&gt;service&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1090" y="600" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-122" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;video&lt;span&gt;.&lt;/span&gt;live&lt;span&gt;-&lt;/span&gt;edge&lt;span&gt;-&lt;/span&gt;computing&lt;span&gt;.&lt;/span&gt;stream&lt;span&gt;-&lt;/span&gt;media&lt;span&gt;-&lt;/span&gt;fetch&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1540" y="600" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-123" value="&lt;span&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 0px 5px; padding: 0px; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot; data-v-6d79ae31=&quot;&quot;&gt;/datacenter.service.titan.v1.TitanUserServer/CheckTagBatch&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; border: 1px solid rgb(225, 243, 216); margin: 0px 0px 0px 20px; padding: 0px 9px; align-items: center; border-radius: 4px; display: inline-flex; height: 24px; justify-content: center; vertical-align: middle; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; --el-tag-font-size: 12px; --el-tag-border-radius: 4px; --el-tag-border-radius-rounded: 9999px; line-height: 1; --el-icon-size: 14px; --el-tag-bg-color: rgb(239.8,248.9,235.3); --el-tag-border-color: rgb(224.6,242.8,215.6); --el-tag-hover-color: #67c23a; --el-tag-text-color: #67c23a;&quot; class=&quot;el-tag el-tag--success el-tag--light&quot; data-v-6d79ae31=&quot;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1050" y="500" width="450" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-124" value="&lt;span&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 0px 5px; padding: 0px; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot; data-v-6d79ae31=&quot;&quot;&gt;/video.edge_computing.stream_media_fetch.v1.StreamMediaFetch/QueryRoomMediaCommonInfo&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; border: 1px solid rgb(225, 243, 216); margin: 0px 0px 0px 20px; padding: 0px 9px; align-items: center; border-radius: 4px; display: inline-flex; height: 24px; justify-content: center; vertical-align: middle; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; --el-tag-font-size: 12px; --el-tag-border-radius: 4px; --el-tag-border-radius-rounded: 9999px; line-height: 1; --el-icon-size: 14px; --el-tag-bg-color: rgb(239.8,248.9,235.3); --el-tag-border-color: rgb(224.6,242.8,215.6); --el-tag-hover-color: #67c23a; --el-tag-text-color: #67c23a;&quot; class=&quot;el-tag el-tag--success el-tag--light&quot; data-v-6d79ae31=&quot;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1450" y="500" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-125" value="策略" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1605" y="360" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-126" value="paladin&lt;br&gt;策略规则(热更新)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1130" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-165" source="sj38n6fJh2CBArFXl05y-128" target="sj38n6fJh2CBArFXl05y-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-128" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;video.pung.playurl&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1200" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-165" source="sj38n6fJh2CBArFXl05y-130" target="sj38n6fJh2CBArFXl05y-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-130" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;video&lt;span&gt;.&lt;/span&gt;live&lt;span&gt;.&lt;/span&gt;schedule&lt;span&gt;-&lt;/span&gt;stream&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1120" y="1030" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-165" source="sj38n6fJh2CBArFXl05y-132" target="sj38n6fJh2CBArFXl05y-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-132" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;video&lt;span&gt;.&lt;/span&gt;live&lt;span&gt;-&lt;/span&gt;core&lt;span&gt;.&lt;/span&gt;stream&lt;span&gt;-&lt;/span&gt;room&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1155" y="1160" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-133" value="热门房间本地缓存" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="765" y="390" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-134" value="热门房间本地缓存" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1070" y="885" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-135" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/video.live.streamng.v2.Stream/GetMultiStreamInfo&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1250" y="968" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-136" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/video.live_core.stream_room.v1.StreamRoomServer/BatchGetStreamDataByRoomIdMultiSource&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1260" y="1110" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-137" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;video&lt;span&gt;.&lt;/span&gt;live&lt;span&gt;-&lt;/span&gt;core&lt;span&gt;.&lt;/span&gt;stream&lt;span&gt;-&lt;/span&gt;core&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1125" y="1320" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-138" value="&lt;span&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 0px 5px; padding: 0px; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot; data-v-6d79ae31=&quot;&quot;&gt;/video.live_core.stream_core.v1.streamCoreServer/GetStreamAvCoversMutilSource&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; border: 1px solid rgb(225, 243, 216); margin: 0px 0px 0px 20px; padding: 0px 9px; align-items: center; border-radius: 4px; display: inline-flex; height: 24px; justify-content: center; vertical-align: middle; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; --el-tag-font-size: 12px; --el-tag-border-radius: 4px; --el-tag-border-radius-rounded: 9999px; line-height: 1; --el-icon-size: 14px; --el-tag-bg-color: rgb(239.8,248.9,235.3); --el-tag-border-color: rgb(224.6,242.8,215.6); --el-tag-hover-color: #67c23a; --el-tag-text-color: #67c23a;&quot; class=&quot;el-tag el-tag--success el-tag--light&quot; data-v-6d79ae31=&quot;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="680" y="1260" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-139" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span&gt;&lt;span&gt;&lt;span style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 0px 5px; padding: 0px; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot; data-v-6d79ae31=&quot;&quot;&gt;/video.live_core.stream_core.v1.streamCoreServer/StreamBatchGetMutilSource&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; border: 1px solid rgb(225, 243, 216); margin: 0px 0px 0px 20px; padding: 0px 9px; --el-tag-font-size: 12px; --el-tag-border-radius: 4px; --el-tag-border-radius-rounded: 9999px; align-items: center; border-radius: 4px; display: inline-flex; height: 24px; justify-content: center; line-height: 1; vertical-align: middle; --el-icon-size: 14px; --el-tag-bg-color: rgb(239.8,248.9,235.3); --el-tag-border-color: rgb(224.6,242.8,215.6); --el-tag-hover-color: #67c23a; --el-tag-text-color: #67c23a; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; border-image: initial; --el-tag-font-size: 12px; --el-tag-border-radius: 4px; --el-tag-border-radius-rounded: 9999px; line-height: 1; --el-icon-size: 14px; --el-tag-bg-color: rgb(239.8,248.9,235.3); --el-tag-border-color: rgb(224.6,242.8,215.6); --el-tag-hover-color: #67c23a; --el-tag-text-color: #67c23a;&quot; class=&quot;el-tag el-tag--success el-tag--light&quot; data-v-6d79ae31=&quot;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1230" y="1260" width="580" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-165" source="sj38n6fJh2CBArFXl05y-142" target="sj38n6fJh2CBArFXl05y-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sj38n6fJh2CBArFXl05y-165" source="sj38n6fJh2CBArFXl05y-142" target="sj38n6fJh2CBArFXl05y-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-142" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;infra&lt;span&gt;.&lt;/span&gt;mg&lt;span&gt;.&lt;/span&gt;playurl&lt;span&gt;-&lt;/span&gt;v3&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="2010" y="860" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-143" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;multimedia&lt;span&gt;.&lt;/span&gt;lv&lt;span&gt;.&lt;/span&gt;lawrencium&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1810" y="1020" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-144" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; white-space-collapse: collapse;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;video.live-cdn.bvccdn-ban-streamcenter&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="2150" y="1020" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.02;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-165" source="sj38n6fJh2CBArFXl05y-128" target="sj38n6fJh2CBArFXl05y-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/multimedia.lv.lawrencium.v1.LawrenciumService/GetIdcIdsByMultiSidInfo&lt;/font&gt;&lt;/span&gt;" link="&lt;span style=&quot;color: rgb(96, 98, 102); font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(240, 246, 253); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;/multimedia.lv.lawrencium.v1.LawrenciumService/GetIdcIdsByMultiSidInfo&lt;/span&gt;" id="sj38n6fJh2CBArFXl05y-146">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+            <mxGeometry x="1620" y="930" width="500" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="sj38n6fJh2CBArFXl05y-147" value="&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 0px 5px; padding: 0px; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot; data-v-6d79ae31=&quot;&quot;&gt;/streamCenter.service.v1.StreamCenter/GetStreams&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; border: 1px solid rgb(225, 243, 216); margin: 0px 0px 0px 20px; padding: 0px 9px; align-items: center; border-radius: 4px; display: inline-flex; height: 24px; justify-content: center; vertical-align: middle; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; --el-tag-font-size: 12px; --el-tag-border-radius: 4px; --el-tag-border-radius-rounded: 9999px; line-height: 1; --el-icon-size: 14px; --el-tag-bg-color: rgb(239.8,248.9,235.3); --el-tag-border-color: rgb(224.6,242.8,215.6); --el-tag-hover-color: #67c23a; --el-tag-text-color: #67c23a;&quot; class=&quot;el-tag el-tag--success el-tag--light&quot; data-v-6d79ae31=&quot;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="2090" y="940" width="400" height="50" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/infra.mg.playurl_v3.v1.LiveResSched/GetBatchPlayurl&lt;/font&gt;&lt;/span&gt;" link="&lt;span style=&quot;color: rgb(96, 98, 102); font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(245, 247, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;/infra.mg.playurl_v3.v1.LiveResSched/GetBatchPlayurl&lt;/span&gt;" id="sj38n6fJh2CBArFXl05y-148">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+            <mxGeometry x="1460" y="875" width="380" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="sj38n6fJh2CBArFXl05y-149" value="pu" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1100" y="818" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-150" value="CDN调度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="2110" y="788" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-151" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/live.daoanchor.v1.DaoAnchor/FetchRoomByIDs&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1040" y="120" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-152" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/live.playurl.strategy.v1.PlayUrlStrategy/BatchPlayUrlStrategy&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1035" y="280" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-153" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/video.pung.playurl.v1.Playurl/BatchPlayurl&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="1250" y="795" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-154" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-165" target="sj38n6fJh2CBArFXl05y-115">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="450" as="sourcePoint" />
+            <mxPoint x="590" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/live.xroom.v1.Room/EntryRoomInfo&lt;/font&gt;&lt;/span&gt;" link="&lt;span style=&quot;color: rgb(96, 98, 102); font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 245, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;/live.xroom.v1.Room/GetMultiple&lt;/span&gt;" id="sj38n6fJh2CBArFXl05y-155">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+            <mxGeometry x="490" y="420" width="230" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="sj38n6fJh2CBArFXl05y-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-165" source="sj38n6fJh2CBArFXl05y-156" target="sj38n6fJh2CBArFXl05y-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-156" value="live.live.xroom-gate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="340" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-157" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;live&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;.&lt;/span&gt;live&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;.&lt;/span&gt;watched&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="750" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-158" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/live.watched.v1.Watch/Display&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="490" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-160" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="450" as="sourcePoint" />
+            <mxPoint x="340" y="449.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-161" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/live.xroomgate.v1.Xroomgate/EntryRoomInfo&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="30" y="420" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-164" value="全量在播房间缓存" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-165">
+          <mxGeometry x="765" y="480" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-166" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-370" y="90" width="1970" height="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-47" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="1250" y="675" width="690" height="605" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-45" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="180" y="690" width="820" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-10" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="530" y="240" width="1090" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-166" source="sj38n6fJh2CBArFXl05y-1" target="sj38n6fJh2CBArFXl05y-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="300" />
+              <mxPoint x="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-166" source="sj38n6fJh2CBArFXl05y-1" target="sj38n6fJh2CBArFXl05y-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="300" />
+              <mxPoint x="440" y="160" />
+              <mxPoint x="940" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-166" source="sj38n6fJh2CBArFXl05y-1" target="sj38n6fJh2CBArFXl05y-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="300" />
+              <mxPoint x="440" y="640" />
+              <mxPoint x="740" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-1" value="live.live.xroom" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="250" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-166" source="sj38n6fJh2CBArFXl05y-3" target="sj38n6fJh2CBArFXl05y-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="330" />
+              <mxPoint x="960" y="390" />
+              <mxPoint x="755" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sj38n6fJh2CBArFXl05y-166" source="sj38n6fJh2CBArFXl05y-3" target="sj38n6fJh2CBArFXl05y-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="390" />
+              <mxPoint x="1190" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sj38n6fJh2CBArFXl05y-166" source="sj38n6fJh2CBArFXl05y-3" target="sj38n6fJh2CBArFXl05y-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-3" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;live.live-infra.playurl-strategy&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="840" y="270" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-4" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;datacenter&lt;span&gt;.&lt;/span&gt;titan&lt;span&gt;.&lt;/span&gt;titan&lt;span&gt;-&lt;/span&gt;user&lt;span&gt;-&lt;/span&gt;service&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="570" y="450" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-5" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;video&lt;span&gt;.&lt;/span&gt;live&lt;span&gt;-&lt;/span&gt;edge&lt;span&gt;-&lt;/span&gt;computing&lt;span&gt;.&lt;/span&gt;stream&lt;span&gt;-&lt;/span&gt;media&lt;span&gt;-&lt;/span&gt;fetch&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="1020" y="450" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-8" value="&lt;span&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 0px 5px; padding: 0px; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot; data-v-6d79ae31=&quot;&quot;&gt;/datacenter.service.titan.v1.TitanUserServer/CheckTagBatch&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; border: 1px solid rgb(225, 243, 216); margin: 0px 0px 0px 20px; padding: 0px 9px; align-items: center; border-radius: 4px; display: inline-flex; height: 24px; justify-content: center; vertical-align: middle; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; --el-tag-font-size: 12px; --el-tag-border-radius: 4px; --el-tag-border-radius-rounded: 9999px; line-height: 1; --el-icon-size: 14px; --el-tag-bg-color: rgb(239.8,248.9,235.3); --el-tag-border-color: rgb(224.6,242.8,215.6); --el-tag-hover-color: #67c23a; --el-tag-text-color: #67c23a;&quot; class=&quot;el-tag el-tag--success el-tag--light&quot; data-v-6d79ae31=&quot;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="530" y="350" width="450" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-9" value="&lt;span&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 0px 5px; padding: 0px; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot; data-v-6d79ae31=&quot;&quot;&gt;/video.edge_computing.stream_media_fetch.v1.StreamMediaFetch/QueryRoomMediaCommonInfo&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; border: 1px solid rgb(225, 243, 216); margin: 0px 0px 0px 20px; padding: 0px 9px; align-items: center; border-radius: 4px; display: inline-flex; height: 24px; justify-content: center; vertical-align: middle; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; --el-tag-font-size: 12px; --el-tag-border-radius: 4px; --el-tag-border-radius-rounded: 9999px; line-height: 1; --el-icon-size: 14px; --el-tag-bg-color: rgb(239.8,248.9,235.3); --el-tag-border-color: rgb(224.6,242.8,215.6); --el-tag-hover-color: #67c23a; --el-tag-text-color: #67c23a;&quot; class=&quot;el-tag el-tag--success el-tag--light&quot; data-v-6d79ae31=&quot;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="930" y="350" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-11" value="策略" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="1085" y="210" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-13" value="paladin&lt;br&gt;策略规则(热更新)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="610" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-166" source="sj38n6fJh2CBArFXl05y-18" target="sj38n6fJh2CBArFXl05y-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-18" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;video.pung.playurl&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="680" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-166" source="sj38n6fJh2CBArFXl05y-19" target="sj38n6fJh2CBArFXl05y-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-19" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;video&lt;span&gt;.&lt;/span&gt;live&lt;span&gt;.&lt;/span&gt;schedule&lt;span&gt;-&lt;/span&gt;stream&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="600" y="880" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-166" source="sj38n6fJh2CBArFXl05y-23" target="sj38n6fJh2CBArFXl05y-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-23" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;video&lt;span&gt;.&lt;/span&gt;live&lt;span&gt;-&lt;/span&gt;core&lt;span&gt;.&lt;/span&gt;stream&lt;span&gt;-&lt;/span&gt;room&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="635" y="1010" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-24" value="热门房间本地缓存" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="245" y="240" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-25" value="热门房间本地缓存" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="550" y="735" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-29" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/video.live.streamng.v2.Stream/GetMultiStreamInfo&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="730" y="818" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-30" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/video.live_core.stream_room.v1.StreamRoomServer/BatchGetStreamDataByRoomIdMultiSource&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="740" y="960" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-32" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;video&lt;span&gt;.&lt;/span&gt;live&lt;span&gt;-&lt;/span&gt;core&lt;span&gt;.&lt;/span&gt;stream&lt;span&gt;-&lt;/span&gt;core&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="605" y="1170" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-34" value="&lt;span&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 0px 5px; padding: 0px; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot; data-v-6d79ae31=&quot;&quot;&gt;/video.live_core.stream_core.v1.streamCoreServer/GetStreamAvCoversMutilSource&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; border: 1px solid rgb(225, 243, 216); margin: 0px 0px 0px 20px; padding: 0px 9px; align-items: center; border-radius: 4px; display: inline-flex; height: 24px; justify-content: center; vertical-align: middle; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; --el-tag-font-size: 12px; --el-tag-border-radius: 4px; --el-tag-border-radius-rounded: 9999px; line-height: 1; --el-icon-size: 14px; --el-tag-bg-color: rgb(239.8,248.9,235.3); --el-tag-border-color: rgb(224.6,242.8,215.6); --el-tag-hover-color: #67c23a; --el-tag-text-color: #67c23a;&quot; class=&quot;el-tag el-tag--success el-tag--light&quot; data-v-6d79ae31=&quot;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="160" y="1110" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-35" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span&gt;&lt;span&gt;&lt;span style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 0px 5px; padding: 0px; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot; data-v-6d79ae31=&quot;&quot;&gt;/video.live_core.stream_core.v1.streamCoreServer/StreamBatchGetMutilSource&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; border: 1px solid rgb(225, 243, 216); margin: 0px 0px 0px 20px; padding: 0px 9px; --el-tag-font-size: 12px; --el-tag-border-radius: 4px; --el-tag-border-radius-rounded: 9999px; align-items: center; border-radius: 4px; display: inline-flex; height: 24px; justify-content: center; line-height: 1; vertical-align: middle; --el-icon-size: 14px; --el-tag-bg-color: rgb(239.8,248.9,235.3); --el-tag-border-color: rgb(224.6,242.8,215.6); --el-tag-hover-color: #67c23a; --el-tag-text-color: #67c23a; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; border-image: initial; --el-tag-font-size: 12px; --el-tag-border-radius: 4px; --el-tag-border-radius-rounded: 9999px; line-height: 1; --el-icon-size: 14px; --el-tag-bg-color: rgb(239.8,248.9,235.3); --el-tag-border-color: rgb(224.6,242.8,215.6); --el-tag-hover-color: #67c23a; --el-tag-text-color: #67c23a;&quot; class=&quot;el-tag el-tag--success el-tag--light&quot; data-v-6d79ae31=&quot;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="710" y="1110" width="580" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-166" source="sj38n6fJh2CBArFXl05y-36" target="sj38n6fJh2CBArFXl05y-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sj38n6fJh2CBArFXl05y-166" source="sj38n6fJh2CBArFXl05y-36" target="sj38n6fJh2CBArFXl05y-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-36" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;infra&lt;span&gt;.&lt;/span&gt;mg&lt;span&gt;.&lt;/span&gt;playurl&lt;span&gt;-&lt;/span&gt;v3&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="1490" y="710" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-37" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;multimedia&lt;span&gt;.&lt;/span&gt;lv&lt;span&gt;.&lt;/span&gt;lawrencium&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="1290" y="870" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-38" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; white-space-collapse: collapse;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;video.live-cdn.bvccdn-ban-streamcenter&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="1630" y="870" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.02;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-166" source="sj38n6fJh2CBArFXl05y-18" target="sj38n6fJh2CBArFXl05y-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/multimedia.lv.lawrencium.v1.LawrenciumService/GetIdcIdsByMultiSidInfo&lt;/font&gt;&lt;/span&gt;" link="&lt;span style=&quot;color: rgb(96, 98, 102); font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(240, 246, 253); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;/multimedia.lv.lawrencium.v1.LawrenciumService/GetIdcIdsByMultiSidInfo&lt;/span&gt;" id="sj38n6fJh2CBArFXl05y-42">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+            <mxGeometry x="1100" y="780" width="500" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="sj38n6fJh2CBArFXl05y-43" value="&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 0px 5px; padding: 0px; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot; data-v-6d79ae31=&quot;&quot;&gt;/streamCenter.service.v1.StreamCenter/GetStreams&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; border: 1px solid rgb(225, 243, 216); margin: 0px 0px 0px 20px; padding: 0px 9px; align-items: center; border-radius: 4px; display: inline-flex; height: 24px; justify-content: center; vertical-align: middle; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; --el-tag-font-size: 12px; --el-tag-border-radius: 4px; --el-tag-border-radius-rounded: 9999px; line-height: 1; --el-icon-size: 14px; --el-tag-bg-color: rgb(239.8,248.9,235.3); --el-tag-border-color: rgb(224.6,242.8,215.6); --el-tag-hover-color: #67c23a; --el-tag-text-color: #67c23a;&quot; class=&quot;el-tag el-tag--success el-tag--light&quot; data-v-6d79ae31=&quot;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="1570" y="790" width="400" height="50" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/infra.mg.playurl_v3.v1.LiveResSched/GetBatchPlayurl&lt;/font&gt;&lt;/span&gt;" link="&lt;span style=&quot;color: rgb(96, 98, 102); font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(245, 247, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;/infra.mg.playurl_v3.v1.LiveResSched/GetBatchPlayurl&lt;/span&gt;" id="sj38n6fJh2CBArFXl05y-44">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+            <mxGeometry x="940" y="725" width="380" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="sj38n6fJh2CBArFXl05y-46" value="pu" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="580" y="668" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-48" value="CDN调度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="1590" y="638" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-54" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/live.playurl.strategy.v1.PlayUrlStrategy/BatchPlayUrlStrategy&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="515" y="130" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-55" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/video.pung.playurl.v1.Playurl/BatchPlayurl&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="730" y="645" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sj38n6fJh2CBArFXl05y-56" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sj38n6fJh2CBArFXl05y-166" target="sj38n6fJh2CBArFXl05y-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="300" as="sourcePoint" />
+            <mxPoint x="70" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/live.xroom.v1.Room/GetMultiple&lt;/font&gt;&lt;/span&gt;" link="&lt;span style=&quot;color: rgb(96, 98, 102); font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 245, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;/live.xroom.v1.Room/GetMultiple&lt;/span&gt;" id="sj38n6fJh2CBArFXl05y-57">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+            <mxGeometry x="15" y="260" width="230" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="sj38n6fJh2CBArFXl05y-162" value="全量在播房间缓存" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="sj38n6fJh2CBArFXl05y-166">
+          <mxGeometry x="245" y="330" width="130" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
