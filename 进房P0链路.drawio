@@ -35,7 +35,7 @@
           <mxGeometry x="340" y="110" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1FD-UYc8OQ99b93QP7tv-24" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1580" y="250" width="810" height="380" as="geometry" />
+          <mxGeometry x="1580" y="250" width="970" height="380" as="geometry" />
         </mxCell>
         <mxCell id="1FD-UYc8OQ99b93QP7tv-22" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1FD-UYc8OQ99b93QP7tv-24" vertex="1">
           <mxGeometry y="30" width="810" height="350" as="geometry" />
@@ -66,14 +66,14 @@
         <mxCell id="1FD-UYc8OQ99b93QP7tv-15" value="paladin(策略规则，热更新)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1FD-UYc8OQ99b93QP7tv-24" vertex="1">
           <mxGeometry x="352.5" y="290" width="275" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1FD-UYc8OQ99b93QP7tv-17" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1FD-UYc8OQ99b93QP7tv-24" vertex="1">
-          <mxGeometry x="680" y="60" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="1FD-UYc8OQ99b93QP7tv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1FD-UYc8OQ99b93QP7tv-24" source="1FD-UYc8OQ99b93QP7tv-13" target="1FD-UYc8OQ99b93QP7tv-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="1FD-UYc8OQ99b93QP7tv-23" value="策略，决议调用pu拿流地址的默认清晰度，是否需要HLS以及是否调度真原画清晰度给到端上等策略" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1FD-UYc8OQ99b93QP7tv-24" vertex="1">
           <mxGeometry x="130" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u2H28mPYu0D7wQaLzCzU-32" value="&lt;span&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border: 0px solid; margin: 0px 0px 0px 5px; padding: 0px; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot; data-v-6d79ae31=&quot;&quot;&gt;/video.edge_computing.stream_media_fetch.v1.StreamMediaFetch/QueryRoomMediaCommonInfo&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; border: 1px solid rgb(225, 243, 216); margin: 0px 0px 0px 20px; padding: 0px 9px; align-items: center; border-radius: 4px; display: inline-flex; height: 24px; justify-content: center; vertical-align: middle; font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left; --el-tag-font-size: 12px; --el-tag-border-radius: 4px; --el-tag-border-radius-rounded: 9999px; line-height: 1; --el-icon-size: 14px; --el-tag-bg-color: rgb(239.8,248.9,235.3); --el-tag-border-color: rgb(224.6,242.8,215.6); --el-tag-hover-color: #67c23a; --el-tag-text-color: #67c23a;&quot; class=&quot;el-tag el-tag--success el-tag--light&quot; data-v-6d79ae31=&quot;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1FD-UYc8OQ99b93QP7tv-24">
+          <mxGeometry x="260" y="150" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u2H28mPYu0D7wQaLzCzU-33" value="&lt;span style=&quot;font-family: ui-sans-serif, system-ui, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;/datacenter.service.titan.v1.TitanUserServer/CheckTagBatch&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1FD-UYc8OQ99b93QP7tv-24">
+          <mxGeometry x="90" y="40" width="410" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1FD-UYc8OQ99b93QP7tv-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1FD-UYc8OQ99b93QP7tv-47" target="1FD-UYc8OQ99b93QP7tv-30" edge="1">
           <mxGeometry relative="1" as="geometry">
