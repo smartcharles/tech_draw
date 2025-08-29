@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
   <diagram name="第 1 页" id="OJnjk7wtLD6WtRQw-Llc">
     <mxGraphModel dx="1426" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
             <mxPoint x="1110" y="355" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ugLYzfmD6MH5FQJ9-1lB-17" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;live.live.xroom-rec&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ugLYzfmD6MH5FQJ9-1lB-17" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;live.live.xroom-rec&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="327.5" width="170" height="55" as="geometry" />
         </mxCell>
         <mxCell id="ugLYzfmD6MH5FQJ9-1lB-18" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px; text-wrap-mode: wrap;&quot;&gt;&lt;font face=&quot;ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot;&gt;/xlive/app-interface/v2/second/getList&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -239,7 +239,7 @@
         <mxCell id="ugLYzfmD6MH5FQJ9-1lB-67" value="全量在播房间缓存" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="ugLYzfmD6MH5FQJ9-1lB-20" vertex="1">
           <mxGeometry x="245" y="360" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-uufhJEIBPcO66myLXte-2" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space-collapse: preserve;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;/live.xroom.v1.Room/&lt;/span&gt;&lt;span&gt;getMultiple&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ugLYzfmD6MH5FQJ9-1lB-20">
+        <mxCell id="-uufhJEIBPcO66myLXte-2" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space-collapse: preserve;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span&gt;/live.xroom.v1.Room/&lt;/span&gt;&lt;span&gt;getMultiple&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ugLYzfmD6MH5FQJ9-1lB-20" vertex="1">
           <mxGeometry x="-10" y="60" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ugLYzfmD6MH5FQJ9-1lB-68" value="/recommand(弱依赖)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
