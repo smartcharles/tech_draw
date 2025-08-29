@@ -234,7 +234,7 @@
         <mxCell id="cbWyFVTfV4eGDqL5AZ-9-66" value="ai.live.livestream-feed" style="rounded=1;whiteSpace=wrap;html=1;" parent="cbWyFVTfV4eGDqL5AZ-9-72" vertex="1">
           <mxGeometry x="640" y="61" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cbWyFVTfV4eGDqL5AZ-9-67" value="天马web推荐链路" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="cbWyFVTfV4eGDqL5AZ-9-72" vertex="1">
+        <mxCell id="cbWyFVTfV4eGDqL5AZ-9-67" value="天马app推荐链路" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="cbWyFVTfV4eGDqL5AZ-9-72" vertex="1">
           <mxGeometry x="360" y="20" width="120" height="30" as="geometry" />
         </mxCell>
         <UserObject label="ai.router.router-pegasus" link="ai.router.router-pegasus" id="cbWyFVTfV4eGDqL5AZ-9-68">
