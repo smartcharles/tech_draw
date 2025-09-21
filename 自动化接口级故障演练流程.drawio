@@ -1,9 +1,155 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="第 1 页" id="r5Neuu9u79A6OFv0h8x0">
-    <mxGraphModel>
+    <mxGraphModel dx="1234" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-1" value="advisor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-tvX0k2kKWcBqhUciSW-4" target="s-tvX0k2kKWcBqhUciSW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s-tvX0k2kKWcBqhUciSW-4" target="s-tvX0k2kKWcBqhUciSW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-4" value="自动化case管理系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-5" value="云真机平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="s-tvX0k2kKWcBqhUciSW-8" target="s-tvX0k2kKWcBqhUciSW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-tvX0k2kKWcBqhUciSW-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-8" value="定时任务获取待执行自动化任务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="500" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-9" value="调用http接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="488" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-10" value="获得各平台手机设备" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="398" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-tvX0k2kKWcBqhUciSW-12" target="s-tvX0k2kKWcBqhUciSW-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-12" value="判断任务类型，找到接任务对应的自动化case脚本，传入运行时参数，启动脚本运行" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="650" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s-tvX0k2kKWcBqhUciSW-15" target="s-tvX0k2kKWcBqhUciSW-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s-tvX0k2kKWcBqhUciSW-15" target="s-tvX0k2kKWcBqhUciSW-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-15" value="连接代理服务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="880" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-tvX0k2kKWcBqhUciSW-18" target="s-tvX0k2kKWcBqhUciSW-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s-tvX0k2kKWcBqhUciSW-18" target="s-tvX0k2kKWcBqhUciSW-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="1130" />
+              <mxPoint x="480" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-18" value="获取任务对应的子场景下所有接口" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="1090" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s-tvX0k2kKWcBqhUciSW-21" target="s-tvX0k2kKWcBqhUciSW-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="1330" />
+              <mxPoint x="480" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s-tvX0k2kKWcBqhUciSW-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-tvX0k2kKWcBqhUciSW-21" target="s-tvX0k2kKWcBqhUciSW-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-21" value="遍历所有接口，通过代理注入故障并执行UI自动化代码" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="1290" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-22" value="调用http接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1278" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="1320" as="targetPoint" />
+            <mxPoint x="905" y="1520" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-26" value="调用http接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1480" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="s-tvX0k2kKWcBqhUciSW-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="1520" as="targetPoint" />
+            <mxPoint x="905" y="1700" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-29" value="调用http接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1660" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-30" value="mitmproxy代理服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-33" value="调用http接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1090" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-tvX0k2kKWcBqhUciSW-35" target="s-tvX0k2kKWcBqhUciSW-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-35" value="上传故障注入后执行UI自动化代码得到的截图" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="925" y="1660" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s-tvX0k2kKWcBqhUciSW-36" target="s-tvX0k2kKWcBqhUciSW-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-36" value="遍历所有接口，通过代理注入故障并执行UI自动化代码" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="1480" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-tvX0k2kKWcBqhUciSW-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-tvX0k2kKWcBqhUciSW-37" target="s-tvX0k2kKWcBqhUciSW-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-37" value="上报进度与执行日志" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="915" y="1850" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-tvX0k2kKWcBqhUciSW-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="1890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-38" value="更新任务状态" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="2060" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-44" value="调用http接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1860" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-tvX0k2kKWcBqhUciSW-45" value="调用http接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="2050" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
