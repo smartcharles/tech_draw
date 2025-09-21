@@ -1,9 +1,112 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.1.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="第 1 页" id="xOuedrj_w55otlX80yDA">
-    <mxGraphModel>
+    <mxGraphModel dx="2061" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-1" value="advisor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zsbBnnlzrWSwCjye6bLM-3" target="zsbBnnlzrWSwCjye6bLM-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zsbBnnlzrWSwCjye6bLM-3" target="zsbBnnlzrWSwCjye6bLM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-3" value="自动化case管理系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-5" value="云真机平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zsbBnnlzrWSwCjye6bLM-11" target="zsbBnnlzrWSwCjye6bLM-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zsbBnnlzrWSwCjye6bLM-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-11" value="定时任务获取待执行自动化任务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="290" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-13" value="调用http接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="278" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-17" value="获得各平台手机设备" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="188" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zsbBnnlzrWSwCjye6bLM-18" target="zsbBnnlzrWSwCjye6bLM-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-18" value="判断任务类型，找到接任务对应的自动化case脚本，传入运行时参数，启动脚本运行" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="440" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zsbBnnlzrWSwCjye6bLM-20" target="zsbBnnlzrWSwCjye6bLM-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zsbBnnlzrWSwCjye6bLM-20" target="zsbBnnlzrWSwCjye6bLM-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-20" value="连接代理服务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="670" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zsbBnnlzrWSwCjye6bLM-21" target="zsbBnnlzrWSwCjye6bLM-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zsbBnnlzrWSwCjye6bLM-21" target="zsbBnnlzrWSwCjye6bLM-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-21" value="执行UI自动化代码模拟人工操作手机，并通过代理服务抓包的到dump文件" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="880" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zsbBnnlzrWSwCjye6bLM-22" target="zsbBnnlzrWSwCjye6bLM-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-160" y="1110" />
+              <mxPoint x="-160" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zsbBnnlzrWSwCjye6bLM-22" target="zsbBnnlzrWSwCjye6bLM-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-22" value="上传运行UI自动化代码得到的的截图与dump文件" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1080" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-28" value="调用http接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-155" y="1068" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zsbBnnlzrWSwCjye6bLM-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zsbBnnlzrWSwCjye6bLM-29" target="zsbBnnlzrWSwCjye6bLM-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-29" value="上报执行日志" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1270" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-35" value="调用http接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1260" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zsbBnnlzrWSwCjye6bLM-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-36" value="更新任务状态" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1450" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-38" value="调用http接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="1440" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zsbBnnlzrWSwCjye6bLM-46" value="mitmproxy代理服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
