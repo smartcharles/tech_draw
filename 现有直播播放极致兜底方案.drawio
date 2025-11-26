@@ -76,22 +76,22 @@
           <mxGeometry x="-400" y="290" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hl3G-2ZcaWCSDFP8FwTn-24" value="直播间详情" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="180" y="120" width="80" height="30" as="geometry" />
+          <mxGeometry x="260" y="160" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hl3G-2ZcaWCSDFP8FwTn-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hl3G-2ZcaWCSDFP8FwTn-32" target="hl3G-2ZcaWCSDFP8FwTn-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hl3G-2ZcaWCSDFP8FwTn-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hl3G-2ZcaWCSDFP8FwTn-32">
+        <mxCell id="hl3G-2ZcaWCSDFP8FwTn-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hl3G-2ZcaWCSDFP8FwTn-32">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="200" as="targetPoint" />
+            <mxPoint x="420" y="260" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-350" y="80" />
-              <mxPoint x="420" y="80" />
+              <mxPoint x="-350" y="120" />
+              <mxPoint x="420" y="120" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="hl3G-2ZcaWCSDFP8FwTn-32" value="live.live-gateway.live-fallback" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="-10" width="280" height="70" as="geometry" />
+          <mxGeometry x="-480" y="-10" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hl3G-2ZcaWCSDFP8FwTn-35" value="boss" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry y="-130" width="60" height="80" as="geometry" />
@@ -138,7 +138,7 @@
           <mxGeometry x="315" y="410" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hl3G-2ZcaWCSDFP8FwTn-54" value="puv3-sdk(无任何rpc强依赖)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-455" y="100" width="210" height="60" as="geometry" />
+          <mxGeometry x="-500" y="180" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hl3G-2ZcaWCSDFP8FwTn-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hl3G-2ZcaWCSDFP8FwTn-32" target="hl3G-2ZcaWCSDFP8FwTn-35">
           <mxGeometry relative="1" as="geometry" />
@@ -147,10 +147,10 @@
           <mxGeometry x="-100" y="-40" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hl3G-2ZcaWCSDFP8FwTn-60" value="感知app/web-room熔断走兜底服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="90" width="210" height="30" as="geometry" />
+          <mxGeometry x="-170" y="140" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hl3G-2ZcaWCSDFP8FwTn-62" value="apigw的熔断降级的请求优先走PU，访问PU直接sdk降级方案" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-140" y="48" width="350" height="30" as="geometry" />
+          <mxGeometry x="-110" y="90" width="350" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
