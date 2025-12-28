@@ -1,9 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.1.1">
   <diagram name="第 1 页" id="7q-GwGO2Uv4XH5W_fKG4">
-    <mxGraphModel>
+    <mxGraphModel dx="1234" dy="1959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Qyn8dU9MYaPgTcJtmZ76-8" edge="1" parent="1" source="Qyn8dU9MYaPgTcJtmZ76-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Qyn8dU9MYaPgTcJtmZ76-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qyn8dU9MYaPgTcJtmZ76-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="slb" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Qyn8dU9MYaPgTcJtmZ76-9" edge="1" parent="1" source="Qyn8dU9MYaPgTcJtmZ76-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Qyn8dU9MYaPgTcJtmZ76-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qyn8dU9MYaPgTcJtmZ76-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="apigw" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Qyn8dU9MYaPgTcJtmZ76-12" edge="1" parent="1" source="Qyn8dU9MYaPgTcJtmZ76-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Qyn8dU9MYaPgTcJtmZ76-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qyn8dU9MYaPgTcJtmZ76-17" edge="1" parent="1" source="Qyn8dU9MYaPgTcJtmZ76-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Qyn8dU9MYaPgTcJtmZ76-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qyn8dU9MYaPgTcJtmZ76-19" edge="1" parent="1" source="Qyn8dU9MYaPgTcJtmZ76-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Qyn8dU9MYaPgTcJtmZ76-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qyn8dU9MYaPgTcJtmZ76-25" edge="1" parent="1" source="Qyn8dU9MYaPgTcJtmZ76-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Qyn8dU9MYaPgTcJtmZ76-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qyn8dU9MYaPgTcJtmZ76-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="app/web-room" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Qyn8dU9MYaPgTcJtmZ76-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="xroom" vertex="1">
+          <mxGeometry height="60" width="120" x="800" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qyn8dU9MYaPgTcJtmZ76-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="pung" vertex="1">
+          <mxGeometry height="60" width="120" x="800" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Qyn8dU9MYaPgTcJtmZ76-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="getRoomPlayInfo" vertex="1">
+          <mxGeometry height="30" width="60" x="410" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Qyn8dU9MYaPgTcJtmZ76-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="getRoomPlayInfo获取直播间详情" vertex="1">
+          <mxGeometry height="30" width="70" x="740" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qyn8dU9MYaPgTcJtmZ76-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="转播直播间SDK" vertex="1">
+          <mxGeometry height="60" width="120" x="800" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Qyn8dU9MYaPgTcJtmZ76-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="playurl-strategy" vertex="1">
+          <mxGeometry height="60" width="120" x="800" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Qyn8dU9MYaPgTcJtmZ76-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SinglePlayUrlStrategy" vertex="1">
+          <mxGeometry height="30" width="60" x="750" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Qyn8dU9MYaPgTcJtmZ76-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="OldOnetierPlayUrl" vertex="1">
+          <mxGeometry height="30" width="60" x="740" y="420" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
