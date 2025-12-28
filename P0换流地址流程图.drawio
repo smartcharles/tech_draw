@@ -1,9 +1,98 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="NCGvieHH3zWrt2NJ7kxw">
-    <mxGraphModel>
+    <mxGraphModel dx="2061" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-2" edge="1" parent="1" source="fnOlmkEqqdIM1MtH8Rkb-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="获取被请求直播间r详情" vertex="1">
+          <mxGeometry height="70" width="160" x="220" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-4" edge="1" parent="1" source="fnOlmkEqqdIM1MtH8Rkb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="调用转播流sdk获取r&#39;" vertex="1">
+          <mxGeometry height="70" width="160" x="220" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-19" edge="1" parent="1" source="fnOlmkEqqdIM1MtH8Rkb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fnOlmkEqqdIM1MtH8Rkb-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-21" edge="1" parent="1" source="fnOlmkEqqdIM1MtH8Rkb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fnOlmkEqqdIM1MtH8Rkb-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-5" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="r’是否存在" vertex="1">
+          <mxGeometry height="100" width="130" x="235" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-10" edge="1" parent="1" source="fnOlmkEqqdIM1MtH8Rkb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fnOlmkEqqdIM1MtH8Rkb-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="调用sdk获取r‘兜底流地址填充回包" vertex="1">
+          <mxGeometry height="70" width="290" x="-130" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-11" edge="1" parent="1" source="fnOlmkEqqdIM1MtH8Rkb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fnOlmkEqqdIM1MtH8Rkb-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="获取r&#39;流策略详情" vertex="1">
+          <mxGeometry height="70" width="290" x="-130" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="基于r’直播间详情与策略详情嗲用PU获取流填充回包" vertex="1">
+          <mxGeometry height="70" width="290" x="-130" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="调用sdk获取r兜底流地址填充回包" vertex="1">
+          <mxGeometry height="60" width="290" x="460" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-29" edge="1" parent="1" source="fnOlmkEqqdIM1MtH8Rkb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fnOlmkEqqdIM1MtH8Rkb-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="获取r流策略详情" vertex="1">
+          <mxGeometry height="70" width="290" x="250" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-25" edge="1" parent="1" source="fnOlmkEqqdIM1MtH8Rkb-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fnOlmkEqqdIM1MtH8Rkb-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-26" edge="1" parent="1" source="fnOlmkEqqdIM1MtH8Rkb-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fnOlmkEqqdIM1MtH8Rkb-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-14" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="r是否开播" vertex="1">
+          <mxGeometry height="100" width="130" x="540" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="基于r直播间详情与策略详情嗲用PU获取流填充回包" vertex="1">
+          <mxGeometry height="70" width="290" x="250" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="结束流程，不请求流地址详情" vertex="1">
+          <mxGeometry height="70" width="290" x="720" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-18" edge="1" parent="1" source="fnOlmkEqqdIM1MtH8Rkb-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fnOlmkEqqdIM1MtH8Rkb-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="本地缓存中获取r‘直播间详情" vertex="1">
+          <mxGeometry height="70" width="290" x="-130" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-24" edge="1" parent="1" source="fnOlmkEqqdIM1MtH8Rkb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="fnOlmkEqqdIM1MtH8Rkb-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="740" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOlmkEqqdIM1MtH8Rkb-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="770" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
