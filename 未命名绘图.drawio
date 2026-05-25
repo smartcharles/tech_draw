@@ -69,7 +69,7 @@
           <mxGeometry height="80" width="240" x="930" y="820" as="geometry" />
         </mxCell>
         <mxCell id="aWUngX9W530Vd7qhPuu2-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="判断服务/接口/下游依赖组件是否有异常" vertex="1">
-          <mxGeometry height="30" width="280" x="560" y="1040" as="geometry" />
+          <mxGeometry height="30" width="280" x="560" y="1030" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
