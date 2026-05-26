@@ -57,11 +57,11 @@
         <mxCell id="aWUngX9W530Vd7qhPuu2-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="接口/依赖项+monii+日志" vertex="1">
           <mxGeometry height="30" width="190" x="470" y="830" as="geometry" />
         </mxCell>
-        <mxCell id="aWUngX9W530Vd7qhPuu2-24" edge="1" parent="1" source="aWUngX9W530Vd7qhPuu2-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="aWUngX9W530Vd7qhPuu2-1" value="i">
+        <mxCell id="aWUngX9W530Vd7qhPuu2-26" edge="1" parent="1" source="aWUngX9W530Vd7qhPuu2-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="aWUngX9W530Vd7qhPuu2-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1050" y="1030" />
-              <mxPoint x="365" y="1030" />
+              <mxPoint x="1050" y="990" />
+              <mxPoint x="420" y="990" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -69,7 +69,7 @@
           <mxGeometry height="80" width="240" x="930" y="820" as="geometry" />
         </mxCell>
         <mxCell id="aWUngX9W530Vd7qhPuu2-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="判断服务/接口/下游依赖组件是否有异常" vertex="1">
-          <mxGeometry height="30" width="280" x="560" y="1030" as="geometry" />
+          <mxGeometry height="30" width="280" x="590" y="990" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
