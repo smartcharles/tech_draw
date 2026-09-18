@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="9H7WnxbJWoDrLZxDggYE">
-    <mxGraphModel dx="1179" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1371" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -130,6 +130,23 @@
         </mxCell>
         <mxCell id="bLx0XYCIE7YQIB_lJWDw-39" parent="bLx0XYCIE7YQIB_lJWDw-42" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;dao-anchor-job&lt;/font&gt;" vertex="1">
           <mxGeometry height="80" width="180" x="580" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="sMlpJ3PwOpq_CPb1GIl9-1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="taishan kv" vertex="1">
+          <mxGeometry height="110" width="100" x="1270" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="sMlpJ3PwOpq_CPb1GIl9-2" edge="1" parent="1" source="bLx0XYCIE7YQIB_lJWDw-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="sMlpJ3PwOpq_CPb1GIl9-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1159.94" y="739.94" />
+              <mxPoint x="1159.94" y="975" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMlpJ3PwOpq_CPb1GIl9-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3. 删除广播延迟任务" vertex="1">
+          <mxGeometry height="30" width="140" x="1130" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="sMlpJ3PwOpq_CPb1GIl9-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;{broadcast:start_live:[0-9]:}{{room_id}}&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="960" y="1010" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
