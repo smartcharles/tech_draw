@@ -4,6 +4,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lLFMIKRcjS33kmvP3Djr-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=light-dark(#000000,#FF3333);" value="" vertex="1">
+          <mxGeometry height="185.65" width="1070" x="1020" y="955.18" as="geometry" />
+        </mxCell>
+        <mxCell id="lLFMIKRcjS33kmvP3Djr-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=light-dark(#000000,#FF3333);" value="" vertex="1">
+          <mxGeometry height="70" width="670" x="1220" y="755" as="geometry" />
+        </mxCell>
         <mxCell id="zaZTRlsz8_ZFFpnN7OWy-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" value="" vertex="1">
           <mxGeometry height="260" width="750" x="850" y="480" as="geometry" />
         </mxCell>
@@ -159,10 +165,10 @@
         <mxCell id="zaZTRlsz8_ZFFpnN7OWy-60" edge="1" parent="1" source="zaZTRlsz8_ZFFpnN7OWy-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="zaZTRlsz8_ZFFpnN7OWy-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zaZTRlsz8_ZFFpnN7OWy-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="删除任务" vertex="1">
+        <mxCell id="zaZTRlsz8_ZFFpnN7OWy-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.删除任务" vertex="1">
           <mxGeometry height="30" width="60" x="1370" y="980" as="geometry" />
         </mxCell>
-        <mxCell id="zaZTRlsz8_ZFFpnN7OWy-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="发送开播广播到端上" vertex="1">
+        <mxCell id="zaZTRlsz8_ZFFpnN7OWy-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2.发送开播广播到端上" vertex="1">
           <mxGeometry height="30" width="130" x="1075" y="1035.18" as="geometry" />
         </mxCell>
         <mxCell id="zaZTRlsz8_ZFFpnN7OWy-65" edge="1" parent="1" source="zaZTRlsz8_ZFFpnN7OWy-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zaZTRlsz8_ZFFpnN7OWy-41">
@@ -205,6 +211,12 @@
         </mxCell>
         <mxCell id="lLFMIKRcjS33kmvP3Djr-4" edge="1" parent="1" source="zaZTRlsz8_ZFFpnN7OWy-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="lLFMIKRcjS33kmvP3Djr-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lLFMIKRcjS33kmvP3Djr-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 51, 51));&quot;&gt;&lt;b&gt;超时兜底部分&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="1620" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="lLFMIKRcjS33kmvP3Djr-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;开播后流转码未就绪链路&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="1410" y="1140.83" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
