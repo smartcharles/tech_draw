@@ -165,10 +165,10 @@
         <mxCell id="zaZTRlsz8_ZFFpnN7OWy-60" edge="1" parent="1" source="zaZTRlsz8_ZFFpnN7OWy-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="zaZTRlsz8_ZFFpnN7OWy-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zaZTRlsz8_ZFFpnN7OWy-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.删除任务" vertex="1">
+        <mxCell id="zaZTRlsz8_ZFFpnN7OWy-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2.删除任务" vertex="1">
           <mxGeometry height="30" width="60" x="1370" y="980" as="geometry" />
         </mxCell>
-        <mxCell id="zaZTRlsz8_ZFFpnN7OWy-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2.发送开播广播到端上" vertex="1">
+        <mxCell id="zaZTRlsz8_ZFFpnN7OWy-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.发送开播广播到端上" vertex="1">
           <mxGeometry height="30" width="130" x="1075" y="1035.18" as="geometry" />
         </mxCell>
         <mxCell id="zaZTRlsz8_ZFFpnN7OWy-65" edge="1" parent="1" source="zaZTRlsz8_ZFFpnN7OWy-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zaZTRlsz8_ZFFpnN7OWy-41">
